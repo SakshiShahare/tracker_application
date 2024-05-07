@@ -53,6 +53,7 @@ app.use(session({
       // For this example, we'll just return the profile.
       return done(null, profile);
     }
+
   ));
   
   // Middleware to initialize Passport and session
